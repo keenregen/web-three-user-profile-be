@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract UserDb is ReentrancyGuard, Ownable, AccessControl {
+contract UserInfo is ReentrancyGuard, Ownable, AccessControl {
     uint256 public currentEntry; // This variable counts the amount of users registered
     // currentEntry++ , this increments the integer by 1
 
